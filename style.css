@@ -1,0 +1,199 @@
+.banner {
+    padding: 1px;
+}
+
+.sd {
+    background-color: #E62C33;
+    font-weight: bold;
+    color: white;
+    width: 110px;
+    text-align: center;
+}
+
+@media (max-width:768) {
+    .sd {
+        background-color: #E62C33;
+        font-weight: bold;
+        color: white;
+        width: 110px;
+        text-align: center;
+    }
+}
+
+.navbar-brand {
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+.row {
+    margin-top: 3px;
+}
+
+.nav-item {
+    margin-left: 15px;
+}
+
+.dropdown-menu {
+    background-color: #12161B;
+    padding-left: 10px;
+}
+
+.dropdown-item {
+    color: white;
+    padding: 7px;
+}
+
+.dropdown-item:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
+    font-weight: 600;
+}
+
+.d-flex .search {
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: #12161B;
+    border: 1px solid #12161B;
+    color: white;
+}
+
+.d-flex .search.active {
+    border: 1px solid #12161B;
+}
+
+.carousel-item img {
+    height: 350px;
+    width: 150px;
+}
+
+.row .carousel-inner {
+    position: relative;
+}
+
+.row .carousel-inner a {
+    position: absolute;
+    left: 50px;
+    top: 260px;
+    display: flex;
+    color: white;
+    border: 15px;
+    background-color: #12161B;
+    font-weight: 700;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.row .carousel-inner a:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.logo {
+    height: 40px;
+    height: 40px;
+}
+
+.col-md-6 {
+    display: flex;
+}
+
+.card {
+    border: 1px solid #ccc;
+    margin: 2px;
+    width: 50%;
+    position: relative;
+}
+
+.card-resim {
+    height: 200px;
+}
+
+.card a {
+    background-color: #12161B;
+    color: white;
+    text-decoration: none;
+    border: 2px solid 12161B;
+    padding: 7px;
+}
+
+a:hover {
+    transition: 0.3s;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+p {
+    padding-top: 10px;
+}
+
+.sondakika {
+    background-color: #E62C33;
+    position: absolute;
+    color: white;
+    padding: 3px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.sondakika:hover {
+    transition: 0.3s;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+#two .card {
+    width: 320px;
+}
+
+.card:hover {
+    transform: scale(1.06);
+    transition: 0.4s;
+    z-index: 1;
+    box-shadow: 8px 8px 8px gray;
+}
+
+hr {
+    margin-top: 70px;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+.bundle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #12161B;
+    margin: 30px;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer img {
+    margin-left: 15px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.footer img:hover {
+    cursor: pointer;
+}
+
+@media (max-width:768px) {
+    #two .card {
+        width: 100%;
+    }
+    .card:hover {
+        transform: none;
+        transition: none;
+        z-index: 1;
+        box-shadow: none;
+    }
+}
